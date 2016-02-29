@@ -1,6 +1,6 @@
-body {
-  background: #f9e933;
-}
+/*body {
+  background: palegoldenrod;
+}*/
 
 header, main, footer {
   min-width: 855px;
@@ -12,22 +12,36 @@ header .container, main .container, footer .container {
 }
 
 header {
-  background: white;
+  background: lightgray;
   overflow: auto;
 }
 
 header h1 {
   float: left;
   width: 570px;
+  margin-left: 2%;
+}
+/*
+form{
+    
+  padding-bottom: 2.7%;
+  
+}
+*/
+form h1 {
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
 }
 
 header nav {
   float: right;
   width: 285px;
+  margin-top: 25px;
 }
 
 main {
-  background: white;
+  
   overflow: auto;
 }
 
@@ -47,6 +61,94 @@ footer .left {
 }
 
 footer .sitemap {
+  font-size: 100%;
   float: right;
   width: 285px;
+}
+
+footer .contact {
+   font-size: 100%;
+   float: left;
+   width: 285px;
+   margin-left: 2%;
+}
+
+main strong {
+   color: blue;
+   font-size: 125%;
+}
+
+.faqmain {
+   /* 
+   width: 100%;
+   height: 100%;
+   */ 
+   
+   background-color: #E6E4C1;
+   padding-bottom: 20px;
+   border-radius: 5px;
+   margin-left: 20%;
+   margin-right: 20%;
+   margin-top: 2%;
+   margin-bottom: 2%;
+   box-shadow: 0px 5px 1px rgba(125, 125, 125, 0.5);
+   
+}
+
+.signupdiv {
+   text-align: center;
+   background-color: #E6E4C1;
+   padding-bottom: 20px;
+   border-radius: 5px;
+   margin-left: 20%;
+   margin-right: 20%;
+   margin-top: 2%;
+   margin-bottom: 2%;
+   box-shadow: 0px 5px 1px rgba(125, 125, 125, 0.5);
+    
+}
+
+label {
+   display: inline-block;
+   text-align: left;
+   width: 125px;
+   padding: 0.4%;
+}
+input {
+   display: inline-block;
+}
+
+
+.formbuttons{
+   /*background-color: skyblue;
+   color: darkblue;
+   
+   border: none;*/
+    margin-top: 2%;
+    background-color: steelblue;
+	border-radius:12px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:4px 9px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+   
+}
+
+main h2 {
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   color: maroon;
+   text-align: center;
+   font-size: 200%;
+   font-weight: bold;
+    
+}
+
+footer {
+   background: lightgray;
+   overflow: auto;
 }
