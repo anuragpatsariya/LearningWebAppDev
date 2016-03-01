@@ -15,40 +15,22 @@ header {
   background: lightgray;
   overflow: auto;
 }
-/*
-.ur {
-  float: left;
-  width: 570px;
-  margin-left: 2%;
-}
-*/
-/*
-form{
-    
-  padding-bottom: 2.7%;
-  
-}
-*/
 
 h1 {
-  /*text-align: left;
-  padding: 10px;*/
   margin: 10px;
 }
 .amaze {
-    float: left;
-    width: 40%;
-    margin-right: 0;
+  float: left;
+  width: 40%;
+  margin-right: 0;
 }
 header nav {
   float: right;
   padding: 20px;
-  /*width: 285px;
-  margin-top: 25px;*/
+ 
 }
 
-main {
-  
+main {  
   overflow: auto;
 }
 
@@ -74,31 +56,21 @@ footer .sitemap {
 }
 
 footer .contact {
-   font-size: 100%;
-   float: left;
-   width: 285px;
-   margin-left: 2%;
+  font-size: 100%;
+  float: left;
+  width: 285px;
+  margin-left: 2%;
 }
 
 main strong {
-   color: blue;
-   font-size: 125%;
+  color: blue;
+  font-size: 125%;
 }
 
 .faqmain {
-   /* 
-   width: 100%;
-   height: 100%;
-   */ 
-   
    background-color: #E6E4C1;
    padding-bottom: 20px;
    border-radius: 5px;
-   /*margin-left: 18%;
-   margin-right: 20%;
-   margin-top: 2%;
-   margin-bottom: 2%;
-   margin: 1%;*/
    box-shadow: 1px 1px rgba(125, 125, 125, 0.5);
    
 }
@@ -124,24 +96,19 @@ input {
    display: inline-block;
 }
 
-
 .formbuttons{
-   /*background-color: skyblue;
-   color: darkblue;
-   
-   border: none;*/
-    margin-top: 2%;
-    background-color: steelblue;
-	border-radius:12px;
-	border:1px solid #18ab29;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial;
-	font-size:15px;
-	padding:4px 9px;
-	text-decoration:none;
-	text-shadow: 1px #2f6627;
+   margin-top: 2%;
+   background-color: steelblue;
+   border-radius:12px;
+   border:1px solid #18ab29;
+   display:inline-block;
+   cursor:pointer;
+   color:#ffffff;
+   font-family:Arial;
+   font-size:15px;
+   padding:4px 9px;
+   text-decoration:none;
+   text-shadow: 1px #2f6627;
    
 }
 
